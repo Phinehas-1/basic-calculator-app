@@ -1,0 +1,18 @@
+/* shape / layout of container */
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 50% 40%;
+    row-gap: 10%;
+    padding-top: 1rem;
+}
+
+/* shape / layout of .buttonContainer  */
+.buttonContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2ch;
+    row-gap: 1ch;
+}

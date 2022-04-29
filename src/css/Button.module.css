@@ -1,0 +1,25 @@
+/* shape of the button  */
+button {
+  width: 6ch;
+  height: 6ch;
+  border-radius: 5px;
+}
+
+/* appearance / texture of button  */
+button {
+  background-color: hsl(240, 100%, 95%);
+  font-weight: 600;
+}
+
+/* transition properties of button */
+button {
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+/* state of button */
+button:hover {
+  background-color: hsl(240, 100%, 85%);
+  cursor: pointer;
+}

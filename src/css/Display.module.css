@@ -1,0 +1,16 @@
+/* shape / layout of the container  */
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  padding-right: 2rem;
+}
+
+/* appearance / texture of container  */
+.container {
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Poppins";
+  font-size: 2rem;
+}
